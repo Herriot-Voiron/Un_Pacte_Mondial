@@ -260,8 +260,8 @@
   .proc:hover{background:#fff;}
   .proc.checked{background:#fff5ea;border-color:var(--accent);}
   .proc input{margin-top:3px;flex:0 0 auto;accent-color:var(--accent);}
-  .proc .pl{font-family:var(--sans);font-weight:800;font-size:13px;color:var(--ink);margin-bottom:2px;}
-  .proc .pd{font-size:13px;color:var(--ink-soft);line-height:1.4;}
+  .proc .pl{display:block;font-family:var(--sans);font-weight:800;font-size:13px;color:var(--ink);margin-bottom:3px;}
+  .proc .pd{display:block;font-size:13px;color:var(--ink-soft);line-height:1.45;}
 
   /* Note explicative finale */
   .note-pad{
@@ -853,8 +853,8 @@ const EXPERTS = [
     bio: "Fondateur de l'Institut de relations internationales et stratégiques (IRIS). A inventé le concept de « géopolitique du sport ». Très présent sur YouTube avec son podcast hebdomadaire « Comprendre le monde ». Style direct, accessible, souvent en franc-tireur.",
     style: "Vulgarisation grand public · phrases courtes · pédagogue",
     liens: [
-      ["Page IRIS (officielle)", "https://www.iris-france.org/chercheurs/pascal-boniface/"],
-      ["Ses podcasts « Comprendre le monde »", "https://www.iris-france.org/podcasts/"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Pascal_Boniface"],
+      ["Son site officiel + podcast « Comprendre le monde »", "https://www.pascalboniface.com/"]
     ]
   },
   {
@@ -863,8 +863,8 @@ const EXPERTS = [
     bio: "Spécialiste de la sociologie des relations internationales. Théoricien de l'« humiliation » comme moteur géopolitique. Critique des approches « réalistes » et de la puissance brute. Son cours « Espace mondial » a été suivi par des milliers d'étudiants.",
     style: "Universitaire mais clair · vocabulaire conceptuel (« humiliation », « connivence », « inter-socialités »)",
     liens: [
-      ["Page Sciences Po / CERI", "https://www.sciencespo.fr/ceri/fr/annuaire/badie-bertrand/"],
-      ["Fiche Diploweb", "https://www.diploweb.com/_Bertrand-BADIE_.html"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Bertrand_Badie"],
+      ["Sa fiche Diploweb (bio + analyses)", "https://www.diploweb.com/_Bertrand-BADIE_.html"]
     ]
   },
   {
@@ -873,8 +873,8 @@ const EXPERTS = [
     bio: "Dirige l'Institut français des relations internationales (IFRI), grand think tank français. Docteur en histoire, spécialiste de la Russie. Auteur récent de « Les ambitions inavouées » et « Guerres invisibles ».",
     style: "Analytique, dense, formules ciselées (« la nouvelle chimie géopolitique »)",
     liens: [
-      ["Page IFRI", "https://www.ifri.org/fr/thomas-gomart"],
-      ["Entretien « Trump, parrain du système occidental » (IFRI, 2026)", "https://www.ifri.org/fr/presse-contenus-repris-sur-le-site/thomas-gomart-directeur-de-lifri-donald-trump-est-devenu-le"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Thomas_Gomart"],
+      ["Sa page à l'IFRI", "https://www.ifri.org/fr/thomas-gomart"]
     ]
   },
   {
@@ -883,18 +883,18 @@ const EXPERTS = [
     bio: "Théoricien de la « géopolitique des émotions » (peur, espoir, humiliation comme moteurs des relations internationales). Chroniqueur régulier aux Échos. Lecture culturelle et littéraire de la géopolitique.",
     style: "Chronique de presse · références littéraires et culturelles · ton mesuré",
     liens: [
-      ["Page Institut Montaigne", "https://www.institutmontaigne.org/experts/dominique-moisi"],
-      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Dominique_Mo%C3%AFsi"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Dominique_Mo%C3%AFsi"],
+      ["Sa page Institut Montaigne", "https://www.institutmontaigne.org/experts/dominique-moisi"]
     ]
   },
   {
     nom: "Frédéric Encel",
     titre: "Géopolitologue · Professeur à Sciences Po et à PSB",
-    bio: "Spécialiste du Proche-Orient, d'Israël et des grandes stratégies. Auteur du « Petit traité de géopolitique ». Très accessible, beaucoup invité à la radio et à la télé (LCI, France Info, RFI).",
+    bio: "Spécialiste du Proche-Orient, d'Israël et des grandes stratégies. Auteur du « Petit traité de géopolitique » et de « Les voies de la puissance ». Très accessible, beaucoup invité à la radio et à la télé (LCI, France Info, RFI).",
     style: "Pédagogue, vif, exemples concrets, sens de la formule",
     liens: [
-      ["Page Sciences Po", "https://www.sciencespo.fr/psia/people/frederic-encel/"],
-      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Encel"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Encel"],
+      ["Son site personnel officiel", "https://www.fredericencel.eu/"]
     ]
   },
   {
@@ -903,8 +903,8 @@ const EXPERTS = [
     bio: "Élève d'Yves Lacoste. Fondatrice de l'Institut français de géopolitique (Université Paris 8). Spécialiste des conflits territoriaux. Approche très ancrée dans la géographie physique et humaine, à différentes échelles.",
     style: "Universitaire-géographique · attentive aux territoires et aux échelles",
     liens: [
-      ["Page IFG (Paris 8)", "https://www.geopolitique.net/lifg/equipe/beatrice-giblin/"],
-      ["Revue Hérodote", "https://www.herodote.org/"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/B%C3%A9atrice_Giblin"],
+      ["Sa page à l'Institut français de géopolitique", "https://www.geopolitique.net/our_team/beatrice-giblin/"]
     ]
   },
   {
@@ -913,8 +913,8 @@ const EXPERTS = [
     bio: "Secrétaire général de l'Élysée sous Mitterrand, puis ministre des Affaires étrangères. A inventé le concept d'« hyperpuissance américaine ». Écrit régulièrement dans Le Monde, Le Figaro. Vision réaliste et critique des illusions de la mondialisation.",
     style: "Diplomatique, prudent, formules nuancées, vocabulaire d'État",
     liens: [
-      ["Son site personnel officiel", "https://www.hubertvedrine.net/"],
-      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Hubert_V%C3%A9drine"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Hubert_V%C3%A9drine"],
+      ["Son site personnel officiel", "https://www.hubertvedrine.net/"]
     ]
   },
   {
@@ -924,7 +924,7 @@ const EXPERTS = [
     style: "Témoignage diplomatique · récits depuis l'intérieur · ton mesuré et informé",
     liens: [
       ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Sylvie_Bermann"],
-      ["Page Institut Montaigne", "https://www.institutmontaigne.org/experts/sylvie-bermann"]
+      ["Sa page Institut Montaigne", "https://www.institutmontaigne.org/experts/sylvie-bermann"]
     ]
   },
   {
@@ -933,8 +933,8 @@ const EXPERTS = [
     bio: "Spécialiste de l'Afrique, du droit international et de l'Union européenne. Écrit régulièrement dans Le Monde diplomatique. Position critique sur les institutions occidentales, ton engagé assumé.",
     style: "Analytique et engagé · démontre par les chiffres et le droit · presse écrite militante",
     liens: [
-      ["Page Monde diplomatique", "https://www.monde-diplomatique.fr/equipe/Anne-C%C3%A9cile_Robert"],
-      ["Tous ses articles", "https://www.monde-diplomatique.fr/equipe/Anne-C%C3%A9cile_Robert#articles"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Anne-C%C3%A9cile_Robert"],
+      ["Ses articles au Monde diplomatique", "https://www.monde-diplomatique.fr/equipe/Anne-C%C3%A9cile_Robert"]
     ]
   },
   {
@@ -943,10 +943,10 @@ const EXPERTS = [
     bio: "Spécialiste des conflits récents (Afghanistan, Mali, Libye). Auteur de plusieurs enquêtes d'envergure (« La vérité sur notre guerre en France », « La guerre de la France au Mali »). Travail de terrain et d'archives.",
     style: "Récit d'enquête, scènes vivantes, sources nommées, ton du thriller documentaire",
     liens: [
-      ["Page éditeur Tallandier", "https://www.tallandier.com/auteur/jean-christophe-notin/"],
-      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Jean-Christophe_Notin"]
+      ["Fiche Wikipédia", "https://fr.wikipedia.org/wiki/Jean-Christophe_Notin"],
+      ["Sa page éditeur Tallandier", "https://www.tallandier.com/auteur/jean-christophe-notin/"]
     ]
-  },
+  }
 ];
 
 /* ====== GÉNÉRATEUR — 4 rouages (cible / intrigue / preuve / ironie) ====== */
